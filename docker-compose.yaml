@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres
+    environment:
+      POSTGRES_DB: db-docker-compose-ex
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+  app:
+    image: node-app-docker-compose-ex
+    ports:
+      - 1300:3000
