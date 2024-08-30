@@ -1,0 +1,13 @@
+# Refer - https://dev.to/nodepractices/docker-best-practices-with-node-js-4ln4
+
+**/node_modules/
+**/.git
+**/README.md
+**/LICENSE
+**/.vscode
+**/npm-debug.log
+**/coverage
+**/.env
+**/.editorconfig
+**/.aws
+**/dist

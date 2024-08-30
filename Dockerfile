@@ -1,11 +1,6 @@
-FROM node:16
-
-WORKDIR /usr/src/app
-
-COPY package*.json ./
-RUN npm i
-
+FROM node:20-slim
+WORKDIR /app
 COPY . .
-
-EXPOSE 300
-CMD [ "npm", "run", "dev" ]
+RUN npm i
+EXPOSE 3000
+CMD [ "node", "server.js" ]

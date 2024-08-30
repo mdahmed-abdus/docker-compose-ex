@@ -6,6 +6,6 @@ services:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
   app:
-    image: node-app-docker-compose-ex
+    image: node-app-docker-compose-ex:0.0.2.RELEASE
     ports:
       - 1300:3000
