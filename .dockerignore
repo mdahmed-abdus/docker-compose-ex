@@ -1,4 +1,4 @@
-# Refer - https://dev.to/nodepractices/docker-best-practices-with-node-js-4ln4
+# Refer - https://github.com/goldbergyoni/nodebestpractices/blob/master/sections/docker/docker-ignore.md#code-example--a-good-default-dockerignore-for-nodejs
 
 **/node_modules/
 **/.git
